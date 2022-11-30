@@ -1,0 +1,13 @@
+/node_modules
+/vendor
+.env
+!.env.example
+.phpunit.result.cache
+npm-debug.log
+yarn-error.log
+.vscode
+.DS_Store
+.php_cs.cache
+composer.lock
+vendor
+node_modules
