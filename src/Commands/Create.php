@@ -135,7 +135,7 @@ class Create extends Command
             $this->info('Add the class to the `transformers` array in your `config/component-transformers.php`:');
 
             $this->newLine();
-            $this->info("'transformers' => [\n    $component_name_lower => \\$namespace\\$component_name::class \n]");
+            $this->info("'transformers' => [\n    '$component_name_lower' => \\$namespace\\$component_name::class \n]");
         }
 
         return self::SUCCESS;
