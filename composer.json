@@ -1,13 +1,14 @@
 {
     "name": "area17/component-transformers",
-    "description": "This is my package component-transformers",
+    "type": "library",
+    "description": "Component transformers for Twill apps",
     "keywords": [
         "area17",
         "laravel",
         "component-transformers"
     ],
     "homepage": "https://github.com/area17/component-transformers",
-    "license": "MIT",
+    "license": "Apache-2.0",
     "authors": [
         {
             "name": "Tim Brook",
