@@ -114,6 +114,8 @@ class Create extends Command
                 $show_add_prompt = ! Arr::has($transformers, $component_name_lower);
             }
         } else {
+            $this->filesystem->ensureDirectoryExists(Str::beforeLast($file, '/'));
+
             file_put_contents(
                 $file,
                 str_replace(
